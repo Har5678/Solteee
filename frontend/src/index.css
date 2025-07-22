@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* styles.css or index.css */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  ::-webkit-scrollbar{
+  display: none;
+}
+
+  /* index.css or App.css */
+.swiper-button-prev,
+.swiper-button-next {
+  color: rgb(145, 141, 141) !important;         /* Change arrow color */
+  font-size: 20px !important;      /* Reduce arrow size */
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 20px !important;      /* Resize arrow icon itself */
+}
+
+
+  

@@ -1,0 +1,180 @@
+import { assets } from "./Assets";
+
+export const products=[
+    {
+        _id: "1",
+        name: "Oversized Cotton T-Shirt",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        price: 100,
+        image: [assets.Product1],
+        category: "Mens",
+        subCategory: "Oversized",
+        sizes: ["S", "M", "L"],
+        date: 1716634345448,
+        bestseller: true
+    },
+    {
+        _id: "2",
+        name: "Oversized Cotton T-Shirt",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        price: 100,
+        image: [assets.Product2],
+        category: "Mens",
+        subCategory: "Oversized",
+        sizes: ["S", "M", "L"],
+        date: 1716634345448,
+        bestseller: false
+    },
+    {
+        _id: "3",
+        name: "Mens Round Neck",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        price: 100,
+        image: [assets.Product3],
+        category: "Mens",
+        subCategory: "T-Shirt",
+        sizes: ["S", "M", "L"],
+        date: 1716634345448,
+        bestseller: true
+    },
+    {
+        _id: "4",
+        name: "Mens Round Neck",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        price: 100,
+        image:[assets.Product4],
+        category: "Mens",
+        subCategory: "T-Shirt",
+        sizes: ["S", "M", "L"],
+        date: 1716634345448,
+        bestseller: false
+    },
+    {
+        _id: "5",
+        name: "Oversized Cotton T-Shirt",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        price: 100,
+        image: [assets.Product5],
+        category: "Mens",
+        subCategory: "Oversized",
+        sizes: ["S", "M", "L"],
+        date: 1716634345448,
+        bestseller: false
+    },
+    {
+        _id: "6",
+        name: "Polo T-Shirt",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        price: 100,
+        image: [assets.Product6],
+        category: "Mens",
+        subCategory: "T-Shirt",
+        sizes: ["S", "M", "L"],
+        date: 1716634345448,
+        bestseller: true
+    },
+    {
+        _id: "7",
+        name: "Polo T-Shirt",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        price: 100,
+        image: [assets.Product7],
+        category: "Mens",
+        subCategory: "T-Shirt",
+        sizes: ["S", "M", "L"],
+        date: 1716634345448,
+        bestseller: false
+    },
+    {
+        _id: "8",
+        name: "Oversized Cotton T-Shirt",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        price: 100,
+        image: [assets.Product8],
+        category: "Mens",
+        subCategory: "T-Shirt",
+        sizes: ["S", "M", "L"],
+        date: 1716634345448,
+        bestseller: false
+    },
+    {
+        _id: "9",
+        name: "Oversized Cotton T-Shirt",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        price: 100,
+        image: [assets.Product9],
+        category: "Mens",
+        subCategory: "Oversized",
+        sizes: ["S", "M", "L"],
+        date: 1716634345448,
+        bestseller: true
+    },
+    {
+        _id: "10",
+        name: "Polo T-Shirt",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        price: 100,
+        image: [assets.Product10],
+        category: "Mens",
+        subCategory: "T-Shirt",
+        sizes: ["S", "M", "L"],
+        date: 1716634345448,
+        bestseller: false
+    },
+    {
+        _id: "11",
+        name: "Polo T-Shirt",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        price: 100,
+        image: [assets.Product11],
+        category: "Mens",
+        subCategory: "Polo",
+        sizes: ["S", "M", "L"],
+        date: 1716634345448,
+        bestseller: false
+    },{
+        _id: "12",
+        name: "Polo T-Shirt",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        price: 100,
+        image: [assets.Product12],
+        category: "Mens",
+        subCategory: "Polo",
+        sizes: ["S", "M", "L"],
+        date: 1716634345448,
+        bestseller: true
+    },{
+        _id: "13",
+        name: "Polo T-Shirt",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        price: 100,
+        image: [assets.Product13],
+        category: "Mens",
+        subCategory: "Polo",
+        sizes: ["S", "M", "L"],
+        date: 1716634345448,
+        bestseller: false
+    },{
+        _id: "14",
+        name: "Polo T-Shirt",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        price: 100,
+        image: [assets.Product14],
+        category: "Mens",
+        subCategory: "Polo",
+        sizes: ["S", "M", "L"],
+        date: 1716634345448,
+        bestseller: false
+    },{
+        _id: "15",
+        name: "Polo T-Shirt",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        price: 100,
+        image: [assets.Product15],
+        category: "Mens",
+        subCategory: "Polo",
+        sizes: ["S", "M", "L"],
+        date: 1716634345448,
+        bestseller: true
+    }
+]
